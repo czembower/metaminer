@@ -1,3 +1,8 @@
+// metaminer
+// retrieves information about a virtual machine running in azure from the azure metadata service
+// extracts related information about the virtual machine from a puppetdb service running inside kubernets
+// resulting metadata is parsed and merged with any existing records in an adjacent redis cluster
+
 package main
 
 import (
